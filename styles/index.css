@@ -190,7 +190,12 @@ main {
     .our-features {
         margin: 20px auto;
     }
-    
+     .facts-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 24px;
+    }
     
 }
 /* responsive media query styles End */
