@@ -8,6 +8,7 @@
 }
 
 /* shared style */
+
 .display-flex {
     display: flex;
 }
@@ -58,5 +59,16 @@
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title {
+    font-size: 3.81rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description {
+    line-height: 26px;
+    color: #727272;
+    margin: 32px 0;
 }
 /* banner style end */
