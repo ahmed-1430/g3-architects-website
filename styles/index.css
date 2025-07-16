@@ -28,6 +28,11 @@ main {
     color: #FFFFFF;
     border: none;
 }
+.section-title{
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: #131313;
+}
 /* shared style End */
 
 /* header style */
