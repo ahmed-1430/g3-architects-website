@@ -6,3 +6,35 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* shared style End */
+
+/* header style */
+
+/* header style End */
+/* navbar style */
+.navbar {
+    justify-content: space-between;
+}
+.nav-items {
+    list-style: none;
+    margin-right: 40px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* navbar style End */
