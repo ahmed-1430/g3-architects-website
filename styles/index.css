@@ -113,7 +113,7 @@ main {
 }
 /* teams section style End */
 
-/* responsive media query styles */
+/* X-Small devices responsive media query styles */
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links,
@@ -130,4 +130,16 @@ main {
     
 }
 
+/* responsive media query styles End */
+
+/* Medium-devices responsive media query styles  */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .teams {
+        flex-direction: column;
+    }
+    .our-features {
+        margin: 20px auto;
+    }
+    
+}
 /* responsive media query styles End */
