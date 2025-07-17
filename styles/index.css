@@ -121,7 +121,7 @@ main {
 
 /* Features2 styles */
 .features2 {
-    gap: 54px;
+    gap: 146px;
 }
 .features2-title {
     border-left: 5px solid #FF900E;
@@ -154,6 +154,18 @@ main {
 .features2-card-description {
     color: #727272;
     line-height: 26px;
+}
+#experience-badge {
+    padding: 46px 42px;
+}
+#experience-year {
+    font-size: 4.06rem;
+    line-height: 70px;
+}
+#experience-txt {
+    font-size: 1.56rem;
+    font-weight: 400;
+    line-height: 40px;
 }
 /* Features2 styles End */
 
