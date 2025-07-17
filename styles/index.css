@@ -8,6 +8,7 @@
 }
 
 /* shared style */
+
 main {
     max-width: 1440px;
     margin: 0 auto;
@@ -35,9 +36,6 @@ main {
 }
 /* shared style End */
 
-/* header style */
-
-/* header style End */
 /* navbar style */
 .navbar {
     justify-content: space-between;
@@ -319,5 +317,6 @@ main {
    .features2-info {
     align-items: center;
     justify-items: center;
-   }   
+   }
+}   
 /* responsive media query styles End */
