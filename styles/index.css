@@ -295,7 +295,8 @@ main {
 
 /* Medium-devices responsive media query styles  */
 @media screen and (min-width:576px) and (max-width: 992px) {
-    .teams {
+    .teams,
+    .features2 {
         flex-direction: column;
     }
     .our-features {
@@ -312,6 +313,11 @@ main {
          gap: 24px;
          justify-items: center;
     }
-    
-}
+    #experience-badge {
+        margin-left: 20px;
+    }
+   .features2-info {
+    align-items: center;
+    justify-items: center;
+   }   
 /* responsive media query styles End */
