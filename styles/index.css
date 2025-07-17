@@ -225,6 +225,11 @@ main {
         justify-items: center;
         gap: 24px;
     }
+    .sponsors-logo {
+         grid-template-columns:repeat(3, 1fr);
+         grid-row: 1/3/3/3;
+         gap: 24px;
+         justify-items: center;
     
 }
 /* responsive media query styles End */
