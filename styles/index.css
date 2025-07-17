@@ -182,6 +182,20 @@ main {
 }
 /* our sponsors section style End */
 
+/* footer styles */
+.footer-text {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #424242;
+    padding: 39px 0;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+/* footer styles End */
+
 /* X-Small devices responsive media query styles */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -227,9 +241,9 @@ main {
     }
     .sponsors-logo {
          grid-template-columns:repeat(3, 1fr);
-         grid-row: 1/3/3/3;
          gap: 24px;
          justify-items: center;
+    }
     
 }
 /* responsive media query styles End */
